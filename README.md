@@ -1,5 +1,5 @@
 <h1 align="center">
-  🚩 React Native Alert
+  🚩 React Native Easy Alert
 </h1>
 
 <div align="center">
