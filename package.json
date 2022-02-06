@@ -1,0 +1,80 @@
+{
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "react-native-easy-alert",
+  "module": "dist/react-native-easy-alert.esm.js",
+  "keywords": [
+    "react-native",
+    "alert",
+    "modal",
+    "dialog",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/mohamadmek/react-native-easy-alert",
+  "author": "Mohamadmek <mouhamadmeksasi@gmail.com> (https://github.com/mohamadmek)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamadmek/react-native-easy-alert/issues"
+  },
+  "homepage": "https://github.com/mohamadmek/react-native-easy-alert#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "size-limit": [
+    {
+      "path": "dist/react-native-easy-alert.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/react-native-easy-alert.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^7.0.8",
+    "@types/react": "^17.0.39",
+    "@types/react-native": "0.62.13",
+    "@types/react-dom": "^17.0.11",
+    "husky": "^7.0.4",
+    "react": "^17.0.2",
+    "react-native": "0.63.4",
+    "react-dom": "^17.0.2",
+    "size-limit": "^7.0.8",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  }
+}
