@@ -13,13 +13,13 @@ React Native Easy Alert Component.
   <kbd>
    <a target="_blank" href="https://www.youtube.com/watch?v=z9ADBprGlvQ" >
     <img
-    height="400"
-    width="200"
-      src="docs/assets/demo.gif"
-      title="Alert Demo"
+    height="375"
+    width="180"
+      src="https://github.com/mohamadmek/react-native-easy-alert/blob/master/docs/assets/demo.gif?raw=true"
+      title="Demo Play"
       float="left"
-
-</a>
+    >
+    </a>
   </kbd>
    <br>
   <a target="_blank" href="https://www.youtube.com/watch?v=z9ADBprGlvQ" >Watch on youtube</a>
