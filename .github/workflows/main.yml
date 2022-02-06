@@ -13,9 +13,6 @@ jobs:
       - name: Use Node ${{ matrix.node }}
         uses: actions/setup-node@v2
 
-      - name: Lint
-        run: yarn lint
-
       - name: Test
         run: yarn test --ci --coverage --maxWorkers=2
 
