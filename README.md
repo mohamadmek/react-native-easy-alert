@@ -238,6 +238,7 @@ showAlert() => void`
 | :------------------- | :------: | :-------------------------------------------------------------: | :----------------- |
 | overlayColor?        | `string` |                 Overlay color behind the alert                  | rgba(0, 0, 0, 0.5) |
 | overLayStyles?       | `object` |                         Overlay styles                          | -                  |
+| crossIconColor?      | `string` |                      crossIconColor color                       | #fff               |
 | globalTextStyles?    | `string` | Style all the text that is in the alert like change font family | -                  |
 | mainContainerStyles? | `object` |                      Main container styles                      | -                  |
 | containerStyles?     | `object` |                     Inner container styles                      | -                  |
