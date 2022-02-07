@@ -37,7 +37,6 @@ React Native's Global `Alert` Component that can be fully customized and without
 - Easy and Flexible and can be fully custom.
 
 `EasyAlert` is an `Alert` replacement that solves adding a state to each alert.
-`FastImage` is a wrapper around
 
 ## Features
 
