@@ -216,7 +216,7 @@ buttonsParam?:
 ### hideAlert
 
 ```jsx
-showAlert() => void`
+hideAlert() => void`
 ```
 
 ### Props
